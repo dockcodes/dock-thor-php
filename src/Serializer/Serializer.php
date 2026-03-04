@@ -1,0 +1,13 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Dock\Thor\Serializer;
+
+class Serializer extends AbstractSerializer implements SerializerInterface
+{
+    public function serialize($value)
+    {
+        return $this->serializeRecursively($value);
+    }
+}
