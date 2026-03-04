@@ -1,6 +1,6 @@
-# Dock Thor PHP
+# DockTHOR PHP
 
-Functions for the Dock Thor SDK that simplify the most common operations such as:
+Functions for the DockTHOR SDK that simplify the most common operations such as:
 
 - capturing exceptions 
 - capturing messages 
@@ -123,6 +123,6 @@ $transaction = startTransaction($context);
 
 # License
 
-Dock THOR is open-source software licensed under the MIT license.
+DockTHOR is open-source software licensed under the MIT license.
 
 https://opensource.org/licenses/MIT
