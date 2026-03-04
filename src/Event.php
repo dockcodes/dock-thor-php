@@ -156,7 +156,7 @@ final class Event
     {
         $this->id = $eventId ?? EventId::generate();
         $this->timestamp = microtime(true);
-        $this->sdkVersion = PrettyVersions::getVersion('dock/thor-core')->getPrettyVersion();
+        $this->sdkVersion = PrettyVersions::getVersion('dockcodes/dock-thor')->getPrettyVersion();
         $this->type = $eventType;
     }
 

@@ -59,7 +59,7 @@ final class ClientBuilder implements ClientBuilderInterface
     public function __construct(?Options $options = null)
     {
         $this->options = $options ?? new Options();
-        $this->sdkVersion = PrettyVersions::getVersion('dock/thor-core')->getPrettyVersion();
+        $this->sdkVersion = PrettyVersions::getVersion('dockcodes/dock-thor')->getPrettyVersion();
     }
 
     public static function create(array $options = []): ClientBuilderInterface

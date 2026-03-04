@@ -55,6 +55,6 @@ final class ModulesIntegration implements IntegrationInterface
             return array_keys(Versions::VERSIONS);
         }
 
-        return ['dock/thor-core'];
+        return ['dockcodes/dock-thor'];
     }
 }
